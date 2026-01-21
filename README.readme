@@ -1,14 +1,29 @@
-# Hytale Auto-Repair Mod
+[size=4][b]Hytale Auto-Repair Mod
+[/b][/size]
+[size=2]Using this mod, you can prevent tools from breaking by automatically using repair kits from your inventory.
+[/size]
+[size=3][b]Base Features
+[/b]
+[/size][list]
+[*][size=2] `/autorepair` command to toggle the auto-repair feature[/size]
+[*]if the auto-repair feature is enabled and a tool in your inventory breaks, it will automatically be repaired as long as you have a repair kit in your inventory
+[*]You get a chat message when an item is auto-repaired
+[*]The `/autorepair` state (enabled/disabled) will be persisted, so that leaving a server and re-joining keeps the last setting
+[/list]
+[size=3][b]How to Download
 
-Using this mod, you can prevent tools from breaking by automatically using repair kits from your inventory. Here is how it works:
+[/b][/size][size=2]The mod can be downloaded from [Curseforge](https://www.curseforge.com/hytale/mods/auto-repair) or [Nexusmods](https://www.nexusmods.com/hytale/mods/42).[/size]
+[size=2]Just add the `.jar` to your server's mods folder (or directly install on your server using the Curseforge UI).[/size]
+[size=2]
+After installing the mod, you can execute the `/autorepair` command in your in-game chat.[/size]
+[size=2]You can always toggle this mod on and off by executing `/autorepair` again.
 
-- After installing the mod (by adding it to your Server's mods folder), you can execute the `/autorepair` command in your in-game chat. 
-- You can always toggle this mod on and off by executing `/autorepair` again. 
-- The auto-repair status is persisted so that it stays the same even after logging out of a server and re-joining
-
-## Possible Future Adjustments
-
-- Add visual effect when auto-repairing a tool
-- Add UI to specify which tools should be auto-repaired and which should not (currently every tool will be repaired)
+[/size]
+[b][size=3]Possible Future Adjustments
+[/size][/b]
+[list]
+[*][size=2]Add visual effect when auto-repairing a tool[/size]
+[*][size=2]Add UI to specify which tools should be auto-repaired and which should not (currently every tool will be repaired)[/size]
+[/list]
 
 Feel free to reach out if you have any questions or feature/improvement ideas.
