@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'org.senix'
-version = '1.0-SNAPSHOT'
+version = 'DEVELOP-SNAPSHOT'
 
 repositories {
     mavenCentral()
