@@ -1,0 +1,7 @@
+{
+  "Group": "org.senix",
+  "Name": "AutoRepairPlugin",
+  "Version": "1.0.0",
+  "Main": "org.senix.plugin.AutoRepairPlugin",
+  "IncludesAssetPack": true
+}
