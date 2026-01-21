@@ -1,11 +1,13 @@
 # Hytale Auto-Repair Mod
-https://www.nexusmods.com/hytale/mods/42
 
 Using this mod, you can prevent tools from breaking by automatically using repair kits from your inventory. Here is how it works:
 
 - After installing the mod (by adding it to your Server's mods folder), you can execute the `/autorepair` command in your in-game chat. 
 - You can always toggle this mod on and off by executing `/autorepair` again. 
 - The auto-repair status is persisted so that it stays the same even after logging out of a server and re-joining
+
+## How to Download
+The mod can be downloaded from [Curseforge](https://www.curseforge.com/hytale/mods/auto-repair) or [Nexusmods](https://www.nexusmods.com/hytale/mods/42). Just add the `.jar` to your server's mods folder.
 
 ## Possible Future Adjustments
 
