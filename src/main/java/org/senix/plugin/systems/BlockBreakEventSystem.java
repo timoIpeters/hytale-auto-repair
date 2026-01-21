@@ -42,7 +42,7 @@ public class BlockBreakEventSystem extends EntityEventSystem<EntityStore, BreakB
         ItemStack tool = inv.getItemInHand();
 
         // Check if tool is about to break
-        if (tool != null && tool.getDurability() <= 1f && !tool.isBroken()) {
+        if (tool != null && isRepairable(tool) && tool.getDurability() <= 1f && !tool.isBroken()) {
             AutoRepairSettings settings = store.getComponent(ref, AutoRepairSettings.TYPE);
 
             if (settings != null && settings.isEnabled() && tryConsumeRepairKit(player, "Tool_Repair_Kit_Iron")) {
@@ -104,6 +104,14 @@ public class BlockBreakEventSystem extends EntityEventSystem<EntityStore, BreakB
             }
         }
         return false;
+    }
+
+    /**
+     * Simple check to see if an item can be repaired by checking it's maxDurability.
+     * TODO: Might enhance this part in the future to only repair specific item categories
+     */
+    private static boolean isRepairable(ItemStack itemStack) {
+        return itemStack.getMaxDurability() >= 1f;
     }
 
     @NullableDecl
